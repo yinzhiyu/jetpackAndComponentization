@@ -1,0 +1,3 @@
+include ':app', ':chat', ':commonlib', ':find', ':home', ':mine'
+rootProject.name='ComponentizationDemo'
+include ':app:log'

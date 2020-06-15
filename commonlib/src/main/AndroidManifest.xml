@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.randy.commonlib">
+    <!--放到这里是因为在组件开发模式下，所有业务组件就无需在自己的 AndroidManifest.xm 声明自己要用到的权限了-->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
