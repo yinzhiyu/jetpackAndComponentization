@@ -34,5 +34,7 @@ public class MViewModel extends ViewModel {
     public void navigationMine() {
         ARouter.getInstance().build("/mine/mine").withString("name", "randy").withInt("age", 18).navigation();
     }
-
+/*
+XIEGEZHUSHI
+ */
 }
